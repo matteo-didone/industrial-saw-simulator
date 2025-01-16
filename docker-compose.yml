@@ -1,0 +1,80 @@
+services:
+  simulator:
+    build: ./simulator
+    ports:
+      - "4840:4840"  # OPC UA
+      - "8000:8000"  # GUI
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - saw-network
+    volumes:
+      - ./simulator/src:/app/src
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket;s=socket.socket();s.connect(('localhost', 4840))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  edge-device:
+    build: ./edge-device
+    ports:
+      - "5001:5000"  # REST API
+    environment:
+      - OPCUA_SERVER_URL=opc.tcp://simulator:4840/saw/
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+      - REST_API_PORT=5000
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      simulator:
+        condition: service_healthy
+      mosquitto:
+        condition: service_started
+    networks:
+      - saw-network
+    volumes:
+      - ./edge-device/src:/app/src
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:5173"  # Mappiamo la porta 5173 del container alla 3000 dell'host
+    environment:
+      - VITE_API_URL=http://localhost:5001
+      - VITE_MQTT_BROKER_URL=ws://localhost:9001
+    depends_on:
+      edge-device:
+        condition: service_healthy
+    networks:
+      - saw-network
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+      - /app/node_modules
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    networks:
+      - saw-network
+    healthcheck:
+      test: ["CMD", "mosquitto_sub", "-t", "$$SYS/#", "-C", "1", "-i", "healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  saw-network:
+    driver: bridge

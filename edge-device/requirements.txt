@@ -1,0 +1,5 @@
+asyncua==1.0.1
+fastapi==0.100.0
+uvicorn==0.22.0
+paho-mqtt==1.6.1
+python-dotenv==1.0.0
