@@ -1,3 +1,4 @@
+// frontend/src/components/ControlPanel.jsx
 import React from "react";
 import {
   Box,
@@ -65,8 +66,9 @@ function ControlPanel() {
   const isError = state === "error";
   const isRunning = state === "running";
   const isPaused = state === "paused";
+  const isInactive = state === "inactive";
   const safetyBarrier = machineState?.data?.safety_barrier;
-  const currentMaterial = machineState?.data?.current_material;
+  const currentMaterial = machineState?.data?.current_material?.toLowerCase();
 
   // Helper per determinare la severità dell'Alert di stato
   const getStateSeverity = () => {

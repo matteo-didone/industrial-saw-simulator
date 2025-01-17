@@ -147,34 +147,34 @@ class SawOPCUAServer:
         self.logger.info("Start command received")
         success = self.simulator.start()
         self.logger.info(f"Start command result: {success}")
-        return [success]
+        return [ua.Variant(success, ua.VariantType.Boolean)]
 
     async def stop_saw(self, parent: Node):
         """Ferma la segatrice"""
         self.logger.info("Stop command received")
         success = self.simulator.stop()
         self.logger.info(f"Stop command result: {success}")
-        return [success]
+        return [ua.Variant(success, ua.VariantType.Boolean)]
 
     async def pause_saw(self, parent: Node):
         """Mette in pausa la segatrice"""
         self.logger.info("Pause command received")
         success = self.simulator.pause()
         self.logger.info(f"Pause command result: {success}")
-        return [success]
+        return [ua.Variant(success, ua.VariantType.Boolean)]
 
     async def reset_saw(self, parent: Node):
         """Resetta la segatrice"""
         self.logger.info("Reset command received")
         success = self.simulator.reset()
         self.logger.info(f"Reset command result: {success}")
-        return [success]
+        return [ua.Variant(success, ua.VariantType.Boolean)]
 
     async def toggle_barrier(self, parent: Node):
         """Attiva/disattiva la barriera di sicurezza"""
         self.logger.info("Toggle barrier command received")
-        self.simulator.toggle_safety_barrier()
-        return [True]
+        success = self.simulator.toggle_safety_barrier()
+        return [ua.Variant(success, ua.VariantType.Boolean)]
 
     async def set_material(self, parent: Node, material: str):
         """Imposta il materiale da tagliare"""
@@ -182,6 +182,6 @@ class SawOPCUAServer:
         success = self.simulator.set_material(material)
         if not success:
             self.logger.warning(f"Invalid material specified: {material}")
-            return [False]
+            return [ua.Variant(False, ua.VariantType.Boolean)]
         self.logger.info(f"Successfully set material to: {material}")
-        return [True]
+        return [ua.Variant(True, ua.VariantType.Boolean)]

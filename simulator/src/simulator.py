@@ -1,3 +1,4 @@
+# simulator/src/simulator.py
 from dataclasses import dataclass
 from enum import Enum
 import random
@@ -38,14 +39,14 @@ class IndustrialSawSimulator:
         self.last_update = time.time()
 
     def start(self):
-        if self.state == MachineState.INACTIVE and self.safety_barrier:
+        if self.state in [MachineState.INACTIVE, MachineState.PAUSED] and self.safety_barrier:
             self.state = MachineState.RUNNING
             self._update_cutting_speed()
             return True
         return False
 
     def stop(self):
-        if self.state == MachineState.RUNNING:
+        if self.state in [MachineState.RUNNING, MachineState.PAUSED]:
             self.state = MachineState.INACTIVE
             self.cutting_speed = 0
             self.power_consumption = 0.1
@@ -70,19 +71,35 @@ class IndustrialSawSimulator:
             return True
         return False
 
-    def set_material(self, material_name: str):
-        if material_name.lower() in self.materials:
-            self.current_material = self.materials[material_name.lower()]
-            self._update_cutting_speed()
+    def set_material(self, material_name: str) -> bool:
+        """Imposta il materiale da tagliare"""
+        material_key = material_name.lower()
+        if material_key in self.materials:
+            self.current_material = self.materials[material_key]
+            if self.state == MachineState.RUNNING:
+                self._update_cutting_speed()
             return True
         return False
 
-    def toggle_safety_barrier(self):
-        self.safety_barrier = not self.safety_barrier
-        if not self.safety_barrier and self.state == MachineState.RUNNING:
-            self.state = MachineState.ALARM
-            self.cutting_speed = 0
-            self.power_consumption = 0.1
+    def toggle_safety_barrier(self) -> bool:
+        """Attiva/disattiva la barriera di sicurezza"""
+        try:
+            # Controlla lo stato corrente
+            current_state = self.state
+            
+            # Cambia lo stato della barriera
+            self.safety_barrier = not self.safety_barrier
+            
+            # Se la macchina è in funzione e la barriera viene aperta
+            if not self.safety_barrier and current_state == MachineState.RUNNING:
+                self.state = MachineState.ALARM
+                self.cutting_speed = 0
+                self.power_consumption = 0.1
+            
+            return True
+            
+        except Exception:
+            return False
 
     def _update_cutting_speed(self):
         if self.state == MachineState.RUNNING:
@@ -105,6 +122,7 @@ class IndustrialSawSimulator:
             )
 
     def simulate_step(self, dt: float):
+        """Simula un passo temporale"""
         if self.state == MachineState.RUNNING:
             pieces_probability = (self.cutting_speed * dt) / 60
             if random.random() < pieces_probability:

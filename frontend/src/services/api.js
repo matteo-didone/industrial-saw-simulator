@@ -103,7 +103,7 @@ export const sendCommand = async ({ command, parameters = {} }) => {
             command,
             parameters,
         });
-        console.log('Command response:', response.data);  // Log della risposta
+        console.log('Command response:', response.data);
         return response.data;
     } catch (error) {
         console.error('Error details:', {

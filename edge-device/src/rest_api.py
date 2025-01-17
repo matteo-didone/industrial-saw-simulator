@@ -63,7 +63,7 @@ class APIServer:
                     "timestamp": datetime.now()
                 }
             except Exception as e:
-                self.logger.error(f"Error reading state: {e}")
+                self.logger.error(f"Error reading state: {e}", exc_info=True)
                 raise HTTPException(status_code=500, detail=str(e))
 
         @self.app.get("/metrics")
@@ -78,61 +78,74 @@ class APIServer:
                     "timestamp": datetime.now()
                 }
             except Exception as e:
-                self.logger.error(f"Error getting metrics: {e}")
+                self.logger.error(f"Error getting metrics: {e}", exc_info=True)
                 raise HTTPException(status_code=500, detail=str(e))
 
         @self.app.post("/command")
         async def execute_command(request: CommandRequest):
             """Esegue un comando sulla segatrice"""
             try:
-                success = False
-                
                 # Log del comando ricevuto
-                self.logger.info(f"Received command: {request.command} with parameters: {request.parameters}")
+                self.logger.info(f"Received command request: {request.command} with parameters: {request.parameters}")
+                
+                success = False
+                command_executed = False
                 
                 if request.command == "start":
+                    self.logger.info("Attempting start command...")
                     success = await self.opcua_client.start_saw()
+                    command_executed = True
+                    
                 elif request.command == "stop":
+                    self.logger.info("Attempting stop command...")
                     success = await self.opcua_client.stop_saw()
+                    command_executed = True
+                    
                 elif request.command == "pause":
+                    self.logger.info("Attempting pause command...")
                     success = await self.opcua_client.pause_saw()
+                    command_executed = True
+                    
                 elif request.command == "reset":
+                    self.logger.info("Attempting reset command...")
                     success = await self.opcua_client.reset_saw()
+                    command_executed = True
+                    
                 elif request.command == "toggle_barrier":
+                    self.logger.info("Attempting toggle barrier command...")
                     success = await self.opcua_client.toggle_barrier()
+                    command_executed = True
+                    
                 elif request.command == "set_material":
                     if not request.parameters or "material" not in request.parameters:
-                        self.logger.error("Missing material parameter")
-                        raise HTTPException(
-                            status_code=400,
-                            detail="Material parameter is required"
-                        )
+                        error_msg = "Material parameter is required"
+                        self.logger.error(error_msg)
+                        raise HTTPException(status_code=400, detail=error_msg)
                     
                     material = request.parameters["material"]
-                    valid_materials = ["Steel", "Aluminum", "Wood"]
-                    material_name = material.title()  # Capitalizza la prima lettera
+                    valid_materials = ["steel", "aluminum", "wood"]
+                    material_name = material.lower()
 
                     if material_name not in valid_materials:
-                        self.logger.error(f"Invalid material: {material}")
-                        raise HTTPException(
-                            status_code=400,
-                            detail=f"Invalid material. Must be one of: {valid_materials}"
-                        )
+                        error_msg = f"Invalid material. Must be one of: {valid_materials}"
+                        self.logger.error(error_msg)
+                        raise HTTPException(status_code=400, detail=error_msg)
                     
-                    self.logger.info(f"Setting material to: {material_name}")
+                    self.logger.info(f"Attempting to set material to: {material_name}")
                     success = await self.opcua_client.set_material(material_name)
-                    self.logger.info(f"Set material result: {success}")
+                    command_executed = True
                     
-                    if success:
-                        self.mqtt_handler.publish_state({
-                            "material_changed": material_name,
-                            "timestamp": datetime.now().isoformat()
-                        })
                 else:
-                    raise HTTPException(
-                        status_code=400,
-                        detail=f"Unknown command: {request.command}"
-                    )
+                    error_msg = f"Unknown command: {request.command}"
+                    self.logger.error(error_msg)
+                    raise HTTPException(status_code=400, detail=error_msg)
+
+                if not command_executed:
+                    error_msg = f"Command {request.command} was not executed"
+                    self.logger.error(error_msg)
+                    raise HTTPException(status_code=500, detail=error_msg)
+
+                self.logger.info(f"Command {request.command} execution result: {success}")
 
                 if success:
                     # Pubblica l'esecuzione del comando su MQTT
@@ -145,40 +158,16 @@ class APIServer:
                         "message": f"Command {request.command} executed successfully"
                     }
                 else:
-                    raise HTTPException(
-                        status_code=500,
-                        detail=f"Command {request.command} failed to execute"
-                    )
+                    error_msg = f"Command {request.command} failed to execute"
+                    self.logger.error(error_msg)
+                    raise HTTPException(status_code=500, detail=error_msg)
 
             except HTTPException:
                 raise
             except Exception as e:
-                self.logger.error(f"Error executing command: {e}")
-                raise HTTPException(status_code=500, detail=str(e))
-
-        @self.app.post("/material")
-        async def set_material(material_update: MaterialUpdate):
-            """Imposta il materiale da tagliare"""
-            try:
-                material_name = material_update.material.title()
-                success = await self.opcua_client.set_material(material_name)
-                if success:
-                    self.mqtt_handler.publish_state({
-                        "material_changed": material_name,
-                        "timestamp": datetime.now().isoformat()
-                    })
-                    return {
-                        "status": "success",
-                        "message": f"Material set to {material_name}"
-                    }
-                else:
-                    raise HTTPException(
-                        status_code=500,
-                        detail="Failed to set material"
-                    )
-            except Exception as e:
-                self.logger.error(f"Error setting material: {e}")
-                raise HTTPException(status_code=500, detail=str(e))
+                error_msg = f"Error executing command {request.command}: {str(e)}"
+                self.logger.error(error_msg, exc_info=True)
+                raise HTTPException(status_code=500, detail=error_msg)
 
         @self.app.get("/alerts")
         async def get_alerts():
@@ -199,7 +188,7 @@ class APIServer:
                     "timestamp": datetime.now()
                 }
             except Exception as e:
-                self.logger.error(f"Error getting alerts: {e}")
+                self.logger.error(f"Error getting alerts: {e}", exc_info=True)
                 raise HTTPException(status_code=500, detail=str(e))
 
         @self.app.get("/alerts/history")
@@ -221,7 +210,7 @@ class APIServer:
                     "timestamp": datetime.now()
                 }
             except Exception as e:
-                self.logger.error(f"Error getting alert history: {e}")
+                self.logger.error(f"Error getting alert history: {e}", exc_info=True)
                 raise HTTPException(status_code=500, detail=str(e))
 
     def get_app(self):

@@ -3681,3 +3681,749 @@
 1737021338: Client saw_edge_device closed its connection.
 1737021338: mosquitto version 2.0.20 terminating
 1737021338: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737113482: mosquitto version 2.0.20 starting
+1737113482: Config loaded from /mosquitto/config/mosquitto.conf.
+1737113482: Opening ipv4 listen socket on port 1883.
+1737113482: Opening ipv6 listen socket on port 1883.
+1737113482: mosquitto version 2.0.20 running
+1737113512: New connection from ::1:33164 on port 1883.
+1737113512: New client connected from ::1:33164 as healthcheck (p2, c1, k60).
+1737113512: Client healthcheck closed its connection.
+1737113515: New connection from 172.21.0.4:51731 on port 1883.
+1737113515: New client connected from 172.21.0.4:51731 as saw_edge_device (p5, c1, k60).
+1737113542: New connection from ::1:59952 on port 1883.
+1737113542: New client connected from ::1:59952 as healthcheck (p2, c1, k60).
+1737113542: Client healthcheck closed its connection.
+1737113572: New connection from ::1:44870 on port 1883.
+1737113572: New client connected from ::1:44870 as healthcheck (p2, c1, k60).
+1737113573: Client healthcheck closed its connection.
+1737113603: New connection from ::1:34838 on port 1883.
+1737113603: New client connected from ::1:34838 as healthcheck (p2, c1, k60).
+1737113603: Client healthcheck closed its connection.
+1737113633: New connection from ::1:40524 on port 1883.
+1737113633: New client connected from ::1:40524 as healthcheck (p2, c1, k60).
+1737113633: Client healthcheck closed its connection.
+1737113663: New connection from ::1:41526 on port 1883.
+1737113663: New client connected from ::1:41526 as healthcheck (p2, c1, k60).
+1737113663: Client healthcheck closed its connection.
+1737113693: New connection from ::1:36546 on port 1883.
+1737113693: New client connected from ::1:36546 as healthcheck (p2, c1, k60).
+1737113693: Client healthcheck closed its connection.
+1737113693: Client saw_edge_device closed its connection.
+1737113693: mosquitto version 2.0.20 terminating
+1737113693: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737113705: mosquitto version 2.0.20 starting
+1737113705: Config loaded from /mosquitto/config/mosquitto.conf.
+1737113705: Opening ipv4 listen socket on port 1883.
+1737113705: Opening ipv6 listen socket on port 1883.
+1737113705: mosquitto version 2.0.20 running
+1737113735: New connection from ::1:48708 on port 1883.
+1737113735: New client connected from ::1:48708 as healthcheck (p2, c1, k60).
+1737113735: Client healthcheck closed its connection.
+1737113736: New connection from 172.21.0.4:42875 on port 1883.
+1737113736: New client connected from 172.21.0.4:42875 as saw_edge_device (p5, c1, k60).
+1737113765: New connection from ::1:35062 on port 1883.
+1737113765: New client connected from ::1:35062 as healthcheck (p2, c1, k60).
+1737113765: Client healthcheck closed its connection.
+1737113795: New connection from ::1:51118 on port 1883.
+1737113795: New client connected from ::1:51118 as healthcheck (p2, c1, k60).
+1737113795: Client healthcheck closed its connection.
+1737113825: New connection from ::1:35828 on port 1883.
+1737113825: New client connected from ::1:35828 as healthcheck (p2, c1, k60).
+1737113825: Client healthcheck closed its connection.
+1737113850: Client saw_edge_device closed its connection.
+1737113850: mosquitto version 2.0.20 terminating
+1737113850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737113880: mosquitto version 2.0.20 starting
+1737113880: Config loaded from /mosquitto/config/mosquitto.conf.
+1737113880: Opening ipv4 listen socket on port 1883.
+1737113880: Opening ipv6 listen socket on port 1883.
+1737113880: mosquitto version 2.0.20 running
+1737113910: New connection from ::1:34226 on port 1883.
+1737113910: New client connected from ::1:34226 as healthcheck (p2, c1, k60).
+1737113910: Client healthcheck closed its connection.
+1737113911: New connection from 172.21.0.4:49741 on port 1883.
+1737113911: New client connected from 172.21.0.4:49741 as saw_edge_device (p5, c1, k60).
+1737113940: New connection from ::1:46256 on port 1883.
+1737113940: New client connected from ::1:46256 as healthcheck (p2, c1, k60).
+1737113940: Client healthcheck closed its connection.
+1737113970: New connection from ::1:43550 on port 1883.
+1737113970: New client connected from ::1:43550 as healthcheck (p2, c1, k60).
+1737113970: Client healthcheck closed its connection.
+1737114000: New connection from ::1:44098 on port 1883.
+1737114000: New client connected from ::1:44098 as healthcheck (p2, c1, k60).
+1737114000: Client healthcheck closed its connection.
+1737114030: New connection from ::1:42368 on port 1883.
+1737114030: New client connected from ::1:42368 as healthcheck (p2, c1, k60).
+1737114030: Client healthcheck closed its connection.
+1737114060: New connection from ::1:53026 on port 1883.
+1737114060: New client connected from ::1:53026 as healthcheck (p2, c1, k60).
+1737114060: Client healthcheck closed its connection.
+1737114091: New connection from ::1:58198 on port 1883.
+1737114091: New client connected from ::1:58198 as healthcheck (p2, c1, k60).
+1737114091: Client healthcheck closed its connection.
+1737114105: Client saw_edge_device closed its connection.
+1737114105: mosquitto version 2.0.20 terminating
+1737114105: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737115797: mosquitto version 2.0.20 starting
+1737115797: Config loaded from /mosquitto/config/mosquitto.conf.
+1737115797: Opening ipv4 listen socket on port 1883.
+1737115797: Opening ipv6 listen socket on port 1883.
+1737115797: mosquitto version 2.0.20 running
+1737115827: New connection from ::1:38004 on port 1883.
+1737115827: New client connected from ::1:38004 as healthcheck (p2, c1, k60).
+1737115827: Client healthcheck closed its connection.
+1737115829: New connection from 172.21.0.4:38799 on port 1883.
+1737115829: New client connected from 172.21.0.4:38799 as saw_edge_device (p5, c1, k60).
+1737115857: New connection from ::1:45368 on port 1883.
+1737115857: New client connected from ::1:45368 as healthcheck (p2, c1, k60).
+1737115857: Client healthcheck closed its connection.
+1737115888: New connection from ::1:35366 on port 1883.
+1737115888: New client connected from ::1:35366 as healthcheck (p2, c1, k60).
+1737115888: Client healthcheck closed its connection.
+1737115918: New connection from ::1:50368 on port 1883.
+1737115918: New client connected from ::1:50368 as healthcheck (p2, c1, k60).
+1737115918: Client healthcheck closed its connection.
+1737115948: New connection from ::1:59246 on port 1883.
+1737115948: New client connected from ::1:59246 as healthcheck (p2, c1, k60).
+1737115948: Client healthcheck closed its connection.
+1737115978: New connection from ::1:34240 on port 1883.
+1737115978: New client connected from ::1:34240 as healthcheck (p2, c1, k60).
+1737115978: Client healthcheck closed its connection.
+1737116008: New connection from ::1:48656 on port 1883.
+1737116008: New client connected from ::1:48656 as healthcheck (p2, c1, k60).
+1737116008: Client healthcheck closed its connection.
+1737116038: New connection from ::1:58002 on port 1883.
+1737116038: New client connected from ::1:58002 as healthcheck (p2, c1, k60).
+1737116038: Client healthcheck closed its connection.
+1737116068: New connection from ::1:39132 on port 1883.
+1737116068: New client connected from ::1:39132 as healthcheck (p2, c1, k60).
+1737116068: Client healthcheck closed its connection.
+1737116098: New connection from ::1:41000 on port 1883.
+1737116098: New client connected from ::1:41000 as healthcheck (p2, c1, k60).
+1737116099: Client healthcheck closed its connection.
+1737116129: New connection from ::1:43392 on port 1883.
+1737116129: New client connected from ::1:43392 as healthcheck (p2, c1, k60).
+1737116129: Client healthcheck closed its connection.
+1737116563: Client saw_edge_device has exceeded timeout, disconnecting.
+1737116583: New connection from ::1:51134 on port 1883.
+1737116583: New client connected from ::1:51134 as healthcheck (p2, c1, k60).
+1737116583: Client healthcheck closed its connection.
+1737116613: New connection from ::1:51420 on port 1883.
+1737116613: New client connected from ::1:51420 as healthcheck (p2, c1, k60).
+1737116613: Client healthcheck closed its connection.
+1737116644: New connection from ::1:38124 on port 1883.
+1737116644: New client connected from ::1:38124 as healthcheck (p2, c1, k60).
+1737116644: Client healthcheck closed its connection.
+1737116674: New connection from ::1:58776 on port 1883.
+1737116674: New client connected from ::1:58776 as healthcheck (p2, c1, k60).
+1737116674: Client healthcheck closed its connection.
+1737116704: New connection from ::1:38584 on port 1883.
+1737116704: New client connected from ::1:38584 as healthcheck (p2, c1, k60).
+1737116704: Client healthcheck closed its connection.
+1737116734: New connection from ::1:48554 on port 1883.
+1737116734: New client connected from ::1:48554 as healthcheck (p2, c1, k60).
+1737116734: Client healthcheck closed its connection.
+1737116764: New connection from ::1:53994 on port 1883.
+1737116764: New client connected from ::1:53994 as healthcheck (p2, c1, k60).
+1737116764: Client healthcheck closed its connection.
+1737116794: New connection from ::1:44552 on port 1883.
+1737116794: New client connected from ::1:44552 as healthcheck (p2, c1, k60).
+1737116794: Client healthcheck closed its connection.
+1737116824: New connection from ::1:59402 on port 1883.
+1737116824: New client connected from ::1:59402 as healthcheck (p2, c1, k60).
+1737116824: Client healthcheck closed its connection.
+1737116854: New connection from ::1:55728 on port 1883.
+1737116854: New client connected from ::1:55728 as healthcheck (p2, c1, k60).
+1737116854: Client healthcheck closed its connection.
+1737116884: New connection from ::1:53810 on port 1883.
+1737116884: New client connected from ::1:53810 as healthcheck (p2, c1, k60).
+1737116884: Client healthcheck closed its connection.
+1737116914: New connection from ::1:36238 on port 1883.
+1737116914: New client connected from ::1:36238 as healthcheck (p2, c1, k60).
+1737116914: Client healthcheck closed its connection.
+1737116944: New connection from ::1:60838 on port 1883.
+1737116944: New client connected from ::1:60838 as healthcheck (p2, c1, k60).
+1737116945: Client healthcheck closed its connection.
+1737116975: New connection from ::1:55860 on port 1883.
+1737116975: New client connected from ::1:55860 as healthcheck (p2, c1, k60).
+1737116975: Client healthcheck closed its connection.
+1737117005: New connection from ::1:57682 on port 1883.
+1737117005: New client connected from ::1:57682 as healthcheck (p2, c1, k60).
+1737117005: Client healthcheck closed its connection.
+1737117035: New connection from ::1:39588 on port 1883.
+1737117035: New client connected from ::1:39588 as healthcheck (p2, c1, k60).
+1737117035: Client healthcheck closed its connection.
+1737117065: New connection from ::1:47800 on port 1883.
+1737117065: New client connected from ::1:47800 as healthcheck (p2, c1, k60).
+1737117065: Client healthcheck closed its connection.
+1737117095: New connection from ::1:53074 on port 1883.
+1737117095: New client connected from ::1:53074 as healthcheck (p2, c1, k60).
+1737117095: Client healthcheck closed its connection.
+1737117125: New connection from ::1:40228 on port 1883.
+1737117125: New client connected from ::1:40228 as healthcheck (p2, c1, k60).
+1737117125: Client healthcheck closed its connection.
+1737117155: New connection from ::1:38598 on port 1883.
+1737117155: New client connected from ::1:38598 as healthcheck (p2, c1, k60).
+1737117155: Client healthcheck closed its connection.
+1737117186: New connection from ::1:40086 on port 1883.
+1737117186: New client connected from ::1:40086 as healthcheck (p2, c1, k60).
+1737117186: Client healthcheck closed its connection.
+1737117216: New connection from ::1:48000 on port 1883.
+1737117216: New client connected from ::1:48000 as healthcheck (p2, c1, k60).
+1737117216: Client healthcheck closed its connection.
+1737117246: New connection from ::1:59484 on port 1883.
+1737117246: New client connected from ::1:59484 as healthcheck (p2, c1, k60).
+1737117246: Client healthcheck closed its connection.
+1737117276: New connection from ::1:43098 on port 1883.
+1737117276: New client connected from ::1:43098 as healthcheck (p2, c1, k60).
+1737117276: Client healthcheck closed its connection.
+1737117306: New connection from ::1:39596 on port 1883.
+1737117306: New client connected from ::1:39596 as healthcheck (p2, c1, k60).
+1737117306: Client healthcheck closed its connection.
+1737117336: New connection from ::1:42394 on port 1883.
+1737117336: New client connected from ::1:42394 as healthcheck (p2, c1, k60).
+1737117336: Client healthcheck closed its connection.
+1737117366: New connection from ::1:59858 on port 1883.
+1737117366: New client connected from ::1:59858 as healthcheck (p2, c1, k60).
+1737117366: Client healthcheck closed its connection.
+1737117396: New connection from ::1:37938 on port 1883.
+1737117396: New client connected from ::1:37938 as healthcheck (p2, c1, k60).
+1737117396: Client healthcheck closed its connection.
+1737117426: New connection from ::1:43556 on port 1883.
+1737117426: New client connected from ::1:43556 as healthcheck (p2, c1, k60).
+1737117426: Client healthcheck closed its connection.
+1737117456: New connection from ::1:43124 on port 1883.
+1737117456: New client connected from ::1:43124 as healthcheck (p2, c1, k60).
+1737117457: Client healthcheck closed its connection.
+1737117487: New connection from ::1:58530 on port 1883.
+1737117487: New client connected from ::1:58530 as healthcheck (p2, c1, k60).
+1737117487: Client healthcheck closed its connection.
+1737117517: New connection from ::1:49444 on port 1883.
+1737117517: New client connected from ::1:49444 as healthcheck (p2, c1, k60).
+1737117517: Client healthcheck closed its connection.
+1737117547: New connection from ::1:55314 on port 1883.
+1737117547: New client connected from ::1:55314 as healthcheck (p2, c1, k60).
+1737117547: Client healthcheck closed its connection.
+1737117577: New connection from ::1:48998 on port 1883.
+1737117577: New client connected from ::1:48998 as healthcheck (p2, c1, k60).
+1737117577: Client healthcheck closed its connection.
+1737117598: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737117607: New connection from ::1:35916 on port 1883.
+1737117607: New client connected from ::1:35916 as healthcheck (p2, c1, k60).
+1737117607: Client healthcheck closed its connection.
+1737117637: New connection from ::1:55160 on port 1883.
+1737117637: New client connected from ::1:55160 as healthcheck (p2, c1, k60).
+1737117637: Client healthcheck closed its connection.
+1737117667: New connection from ::1:37816 on port 1883.
+1737117667: New client connected from ::1:37816 as healthcheck (p2, c1, k60).
+1737117667: Client healthcheck closed its connection.
+1737117697: New connection from ::1:55370 on port 1883.
+1737117697: New client connected from ::1:55370 as healthcheck (p2, c1, k60).
+1737117697: Client healthcheck closed its connection.
+1737117727: New connection from ::1:36582 on port 1883.
+1737117727: New client connected from ::1:36582 as healthcheck (p2, c1, k60).
+1737117727: Client healthcheck closed its connection.
+1737117757: New connection from ::1:55166 on port 1883.
+1737117757: New client connected from ::1:55166 as healthcheck (p2, c1, k60).
+1737117757: Client healthcheck closed its connection.
+1737117787: New connection from ::1:47586 on port 1883.
+1737117787: New client connected from ::1:47586 as healthcheck (p2, c1, k60).
+1737117787: Client healthcheck closed its connection.
+1737117817: New connection from ::1:40300 on port 1883.
+1737117817: New client connected from ::1:40300 as healthcheck (p2, c1, k60).
+1737117818: Client healthcheck closed its connection.
+1737117848: New connection from ::1:50976 on port 1883.
+1737117848: New client connected from ::1:50976 as healthcheck (p2, c1, k60).
+1737117848: Client healthcheck closed its connection.
+1737117878: New connection from ::1:59748 on port 1883.
+1737117878: New client connected from ::1:59748 as healthcheck (p2, c1, k60).
+1737117878: Client healthcheck closed its connection.
+1737117908: New connection from ::1:33410 on port 1883.
+1737117908: New client connected from ::1:33410 as healthcheck (p2, c1, k60).
+1737117908: Client healthcheck closed its connection.
+1737117938: New connection from ::1:57890 on port 1883.
+1737117938: New client connected from ::1:57890 as healthcheck (p2, c1, k60).
+1737117938: Client healthcheck closed its connection.
+1737117968: New connection from ::1:39958 on port 1883.
+1737117968: New client connected from ::1:39958 as healthcheck (p2, c1, k60).
+1737117968: Client healthcheck closed its connection.
+1737117998: New connection from ::1:41804 on port 1883.
+1737117998: New client connected from ::1:41804 as healthcheck (p2, c1, k60).
+1737117998: Client healthcheck closed its connection.
+1737118028: New connection from ::1:55364 on port 1883.
+1737118028: New client connected from ::1:55364 as healthcheck (p2, c1, k60).
+1737118028: Client healthcheck closed its connection.
+1737118058: New connection from ::1:40574 on port 1883.
+1737118058: New client connected from ::1:40574 as healthcheck (p2, c1, k60).
+1737118058: Client healthcheck closed its connection.
+1737118136: New connection from ::1:50660 on port 1883.
+1737118136: New client connected from ::1:50660 as healthcheck (p2, c1, k60).
+1737118136: Client healthcheck closed its connection.
+1737118166: New connection from ::1:41684 on port 1883.
+1737118166: New client connected from ::1:41684 as healthcheck (p2, c1, k60).
+1737118166: Client healthcheck closed its connection.
+1737119196: New connection from ::1:58498 on port 1883.
+1737119196: New client connected from ::1:58498 as healthcheck (p2, c1, k60).
+1737119196: Client healthcheck closed its connection.
+1737119226: New connection from ::1:37758 on port 1883.
+1737119226: New client connected from ::1:37758 as healthcheck (p2, c1, k60).
+1737119226: Client healthcheck closed its connection.
+1737119257: New connection from ::1:55194 on port 1883.
+1737119257: New client connected from ::1:55194 as healthcheck (p2, c1, k60).
+1737119257: Client healthcheck closed its connection.
+1737119287: New connection from ::1:45480 on port 1883.
+1737119287: New client connected from ::1:45480 as healthcheck (p2, c1, k60).
+1737119287: Client healthcheck closed its connection.
+1737119317: New connection from ::1:43574 on port 1883.
+1737119317: New client connected from ::1:43574 as healthcheck (p2, c1, k60).
+1737119317: Client healthcheck closed its connection.
+1737119347: New connection from ::1:39892 on port 1883.
+1737119347: New client connected from ::1:39892 as healthcheck (p2, c1, k60).
+1737119347: Client healthcheck closed its connection.
+1737119377: New connection from ::1:55180 on port 1883.
+1737119377: New client connected from ::1:55180 as healthcheck (p2, c1, k60).
+1737119377: Client healthcheck closed its connection.
+1737119399: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737119407: New connection from ::1:36740 on port 1883.
+1737119407: New client connected from ::1:36740 as healthcheck (p2, c1, k60).
+1737119407: Client healthcheck closed its connection.
+1737119437: New connection from ::1:58560 on port 1883.
+1737119437: New client connected from ::1:58560 as healthcheck (p2, c1, k60).
+1737119437: Client healthcheck closed its connection.
+1737119467: New connection from ::1:51992 on port 1883.
+1737119467: New client connected from ::1:51992 as healthcheck (p2, c1, k60).
+1737119467: Client healthcheck closed its connection.
+1737119497: New connection from ::1:50908 on port 1883.
+1737119497: New client connected from ::1:50908 as healthcheck (p2, c1, k60).
+1737119497: Client healthcheck closed its connection.
+1737119527: New connection from ::1:44402 on port 1883.
+1737119527: New client connected from ::1:44402 as healthcheck (p2, c1, k60).
+1737119527: Client healthcheck closed its connection.
+1737119557: New connection from ::1:40370 on port 1883.
+1737119557: New client connected from ::1:40370 as healthcheck (p2, c1, k60).
+1737119558: Client healthcheck closed its connection.
+1737119588: New connection from ::1:42250 on port 1883.
+1737119588: New client connected from ::1:42250 as healthcheck (p2, c1, k60).
+1737119588: Client healthcheck closed its connection.
+1737119618: New connection from ::1:34828 on port 1883.
+1737119618: New client connected from ::1:34828 as healthcheck (p2, c1, k60).
+1737119618: Client healthcheck closed its connection.
+1737119648: New connection from ::1:51380 on port 1883.
+1737119648: New client connected from ::1:51380 as healthcheck (p2, c1, k60).
+1737119648: Client healthcheck closed its connection.
+1737119678: New connection from ::1:40926 on port 1883.
+1737119678: New client connected from ::1:40926 as healthcheck (p2, c1, k60).
+1737119678: Client healthcheck closed its connection.
+1737119708: New connection from ::1:52706 on port 1883.
+1737119708: New client connected from ::1:52706 as healthcheck (p2, c1, k60).
+1737119708: Client healthcheck closed its connection.
+1737119738: New connection from ::1:33382 on port 1883.
+1737119738: New client connected from ::1:33382 as healthcheck (p2, c1, k60).
+1737119738: Client healthcheck closed its connection.
+1737119768: New connection from ::1:48032 on port 1883.
+1737119768: New client connected from ::1:48032 as healthcheck (p2, c1, k60).
+1737119768: Client healthcheck closed its connection.
+1737119799: New connection from ::1:53218 on port 1883.
+1737119799: New client connected from ::1:53218 as healthcheck (p2, c1, k60).
+1737119799: Client healthcheck closed its connection.
+1737119829: New connection from ::1:48116 on port 1883.
+1737119829: New client connected from ::1:48116 as healthcheck (p2, c1, k60).
+1737119829: Client healthcheck closed its connection.
+1737119859: New connection from ::1:56448 on port 1883.
+1737119859: New client connected from ::1:56448 as healthcheck (p2, c1, k60).
+1737119859: Client healthcheck closed its connection.
+1737119889: New connection from ::1:46402 on port 1883.
+1737119889: New client connected from ::1:46402 as healthcheck (p2, c1, k60).
+1737119889: Client healthcheck closed its connection.
+1737119919: New connection from ::1:46966 on port 1883.
+1737119919: New client connected from ::1:46966 as healthcheck (p2, c1, k60).
+1737119919: Client healthcheck closed its connection.
+1737119949: New connection from ::1:46782 on port 1883.
+1737119949: New client connected from ::1:46782 as healthcheck (p2, c1, k60).
+1737119949: Client healthcheck closed its connection.
+1737119979: New connection from ::1:33102 on port 1883.
+1737119979: New client connected from ::1:33102 as healthcheck (p2, c1, k60).
+1737119979: Client healthcheck closed its connection.
+1737120009: New connection from ::1:53052 on port 1883.
+1737120009: New client connected from ::1:53052 as healthcheck (p2, c1, k60).
+1737120009: Client healthcheck closed its connection.
+1737120040: New connection from ::1:60484 on port 1883.
+1737120040: New client connected from ::1:60484 as healthcheck (p2, c1, k60).
+1737120040: Client healthcheck closed its connection.
+1737120070: New connection from ::1:54626 on port 1883.
+1737120070: New client connected from ::1:54626 as healthcheck (p2, c1, k60).
+1737120070: Client healthcheck closed its connection.
+1737120100: New connection from ::1:42130 on port 1883.
+1737120100: New client connected from ::1:42130 as healthcheck (p2, c1, k60).
+1737120100: Client healthcheck closed its connection.
+1737120130: New connection from ::1:43048 on port 1883.
+1737120130: New client connected from ::1:43048 as healthcheck (p2, c1, k60).
+1737120130: Client healthcheck closed its connection.
+1737120160: New connection from ::1:54194 on port 1883.
+1737120160: New client connected from ::1:54194 as healthcheck (p2, c1, k60).
+1737120160: Client healthcheck closed its connection.
+1737120190: New connection from ::1:49970 on port 1883.
+1737120190: New client connected from ::1:49970 as healthcheck (p2, c1, k60).
+1737120190: Client healthcheck closed its connection.
+1737120220: New connection from ::1:47578 on port 1883.
+1737120220: New client connected from ::1:47578 as healthcheck (p2, c1, k60).
+1737120220: Client healthcheck closed its connection.
+1737120250: New connection from ::1:58988 on port 1883.
+1737120250: New client connected from ::1:58988 as healthcheck (p2, c1, k60).
+1737120250: Client healthcheck closed its connection.
+1737120280: New connection from ::1:40130 on port 1883.
+1737120280: New client connected from ::1:40130 as healthcheck (p2, c1, k60).
+1737120280: Client healthcheck closed its connection.
+1737120310: New connection from ::1:45696 on port 1883.
+1737120310: New client connected from ::1:45696 as healthcheck (p2, c1, k60).
+1737120310: Client healthcheck closed its connection.
+1737120341: New connection from ::1:49552 on port 1883.
+1737120341: New client connected from ::1:49552 as healthcheck (p2, c1, k60).
+1737120341: Client healthcheck closed its connection.
+1737120371: New connection from ::1:60478 on port 1883.
+1737120371: New client connected from ::1:60478 as healthcheck (p2, c1, k60).
+1737120371: Client healthcheck closed its connection.
+1737120401: New connection from ::1:48570 on port 1883.
+1737120401: New client connected from ::1:48570 as healthcheck (p2, c1, k60).
+1737120401: Client healthcheck closed its connection.
+1737120431: New connection from ::1:35140 on port 1883.
+1737120431: New client connected from ::1:35140 as healthcheck (p2, c1, k60).
+1737120431: Client healthcheck closed its connection.
+1737120461: New connection from ::1:39046 on port 1883.
+1737120461: New client connected from ::1:39046 as healthcheck (p2, c1, k60).
+1737120461: Client healthcheck closed its connection.
+1737120491: New connection from ::1:42696 on port 1883.
+1737120491: New client connected from ::1:42696 as healthcheck (p2, c1, k60).
+1737120491: Client healthcheck closed its connection.
+1737120521: New connection from ::1:52416 on port 1883.
+1737120521: New client connected from ::1:52416 as healthcheck (p2, c1, k60).
+1737120521: Client healthcheck closed its connection.
+1737120551: New connection from ::1:45548 on port 1883.
+1737120551: New client connected from ::1:45548 as healthcheck (p2, c1, k60).
+1737120551: Client healthcheck closed its connection.
+1737120581: New connection from ::1:43626 on port 1883.
+1737120581: New client connected from ::1:43626 as healthcheck (p2, c1, k60).
+1737120581: Client healthcheck closed its connection.
+1737120611: New connection from ::1:33748 on port 1883.
+1737120611: New client connected from ::1:33748 as healthcheck (p2, c1, k60).
+1737120611: Client healthcheck closed its connection.
+1737120641: New connection from ::1:40476 on port 1883.
+1737120641: New client connected from ::1:40476 as healthcheck (p2, c1, k60).
+1737120641: Client healthcheck closed its connection.
+1737120672: New connection from ::1:53384 on port 1883.
+1737120672: New client connected from ::1:53384 as healthcheck (p2, c1, k60).
+1737120672: Client healthcheck closed its connection.
+1737120702: New connection from ::1:43618 on port 1883.
+1737120702: New client connected from ::1:43618 as healthcheck (p2, c1, k60).
+1737120702: Client healthcheck closed its connection.
+1737120732: New connection from ::1:58276 on port 1883.
+1737120732: New client connected from ::1:58276 as healthcheck (p2, c1, k60).
+1737120732: Client healthcheck closed its connection.
+1737120762: New connection from ::1:33714 on port 1883.
+1737120762: New client connected from ::1:33714 as healthcheck (p2, c1, k60).
+1737120762: Client healthcheck closed its connection.
+1737120792: New connection from ::1:51590 on port 1883.
+1737120792: New client connected from ::1:51590 as healthcheck (p2, c1, k60).
+1737120792: Client healthcheck closed its connection.
+1737120822: New connection from ::1:42094 on port 1883.
+1737120822: New client connected from ::1:42094 as healthcheck (p2, c1, k60).
+1737120822: Client healthcheck closed its connection.
+1737120852: New connection from ::1:58330 on port 1883.
+1737120852: New client connected from ::1:58330 as healthcheck (p2, c1, k60).
+1737120852: Client healthcheck closed its connection.
+1737120882: New connection from ::1:54828 on port 1883.
+1737120882: New client connected from ::1:54828 as healthcheck (p2, c1, k60).
+1737120882: Client healthcheck closed its connection.
+1737120912: New connection from ::1:41014 on port 1883.
+1737120912: New client connected from ::1:41014 as healthcheck (p2, c1, k60).
+1737120913: Client healthcheck closed its connection.
+1737120943: New connection from ::1:54608 on port 1883.
+1737120943: New client connected from ::1:54608 as healthcheck (p2, c1, k60).
+1737120943: Client healthcheck closed its connection.
+1737120973: New connection from ::1:33872 on port 1883.
+1737120973: New client connected from ::1:33872 as healthcheck (p2, c1, k60).
+1737120973: Client healthcheck closed its connection.
+1737121003: New connection from ::1:60186 on port 1883.
+1737121003: New client connected from ::1:60186 as healthcheck (p2, c1, k60).
+1737121003: Client healthcheck closed its connection.
+1737121033: mosquitto version 2.0.20 terminating
+1737121033: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737121110: mosquitto version 2.0.20 starting
+1737121110: Config loaded from /mosquitto/config/mosquitto.conf.
+1737121110: Opening ipv4 listen socket on port 1883.
+1737121110: Opening ipv6 listen socket on port 1883.
+1737121110: mosquitto version 2.0.20 running
+1737121133: New connection from 172.21.0.4:36341 on port 1883.
+1737121133: New client connected from 172.21.0.4:36341 as saw_edge_device (p5, c1, k60).
+1737121140: New connection from ::1:55754 on port 1883.
+1737121140: New client connected from ::1:55754 as healthcheck (p2, c1, k60).
+1737121140: Client healthcheck closed its connection.
+1737121170: New connection from ::1:49134 on port 1883.
+1737121170: New client connected from ::1:49134 as healthcheck (p2, c1, k60).
+1737121170: Client healthcheck closed its connection.
+1737121200: New connection from ::1:43008 on port 1883.
+1737121200: New client connected from ::1:43008 as healthcheck (p2, c1, k60).
+1737121200: Client healthcheck closed its connection.
+1737121230: New connection from ::1:47642 on port 1883.
+1737121230: New client connected from ::1:47642 as healthcheck (p2, c1, k60).
+1737121230: Client healthcheck closed its connection.
+1737121260: New connection from ::1:40208 on port 1883.
+1737121260: New client connected from ::1:40208 as healthcheck (p2, c1, k60).
+1737121260: Client healthcheck closed its connection.
+1737121291: New connection from ::1:49352 on port 1883.
+1737121291: New client connected from ::1:49352 as healthcheck (p2, c1, k60).
+1737121291: Client healthcheck closed its connection.
+1737121321: New connection from ::1:37004 on port 1883.
+1737121321: New client connected from ::1:37004 as healthcheck (p2, c1, k60).
+1737121321: Client healthcheck closed its connection.
+1737121351: New connection from ::1:58122 on port 1883.
+1737121351: New client connected from ::1:58122 as healthcheck (p2, c1, k60).
+1737121351: Client healthcheck closed its connection.
+1737121381: New connection from ::1:49386 on port 1883.
+1737121381: New client connected from ::1:49386 as healthcheck (p2, c1, k60).
+1737121381: Client healthcheck closed its connection.
+1737121411: New connection from ::1:37264 on port 1883.
+1737121411: New client connected from ::1:37264 as healthcheck (p2, c1, k60).
+1737121411: Client healthcheck closed its connection.
+1737121441: New connection from ::1:60450 on port 1883.
+1737121441: New client connected from ::1:60450 as healthcheck (p2, c1, k60).
+1737121441: Client healthcheck closed its connection.
+1737121471: New connection from ::1:51472 on port 1883.
+1737121471: New client connected from ::1:51472 as healthcheck (p2, c1, k60).
+1737121471: Client healthcheck closed its connection.
+1737121501: New connection from ::1:41600 on port 1883.
+1737121501: New client connected from ::1:41600 as healthcheck (p2, c1, k60).
+1737121501: Client healthcheck closed its connection.
+1737121531: New connection from ::1:44416 on port 1883.
+1737121531: New client connected from ::1:44416 as healthcheck (p2, c1, k60).
+1737121531: Client healthcheck closed its connection.
+1737121562: New connection from ::1:34118 on port 1883.
+1737121562: New client connected from ::1:34118 as healthcheck (p2, c1, k60).
+1737121562: Client healthcheck closed its connection.
+1737121589: Client saw_edge_device closed its connection.
+1737121589: mosquitto version 2.0.20 terminating
+1737121589: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737121672: mosquitto version 2.0.20 starting
+1737121672: Config loaded from /mosquitto/config/mosquitto.conf.
+1737121672: Opening ipv4 listen socket on port 1883.
+1737121672: Opening ipv6 listen socket on port 1883.
+1737121672: mosquitto version 2.0.20 running
+1737121702: New connection from ::1:43690 on port 1883.
+1737121702: New client connected from ::1:43690 as healthcheck (p2, c1, k60).
+1737121702: Client healthcheck closed its connection.
+1737121703: New connection from 172.21.0.4:33817 on port 1883.
+1737121703: New client connected from 172.21.0.4:33817 as saw_edge_device (p5, c1, k60).
+1737121732: New connection from ::1:51018 on port 1883.
+1737121732: New client connected from ::1:51018 as healthcheck (p2, c1, k60).
+1737121732: Client healthcheck closed its connection.
+1737121762: New connection from ::1:34240 on port 1883.
+1737121762: New client connected from ::1:34240 as healthcheck (p2, c1, k60).
+1737121762: Client healthcheck closed its connection.
+1737121792: New connection from ::1:58614 on port 1883.
+1737121792: New client connected from ::1:58614 as healthcheck (p2, c1, k60).
+1737121792: Client healthcheck closed its connection.
+1737121822: Client saw_edge_device closed its connection.
+1737121822: mosquitto version 2.0.20 terminating
+1737121822: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737121838: mosquitto version 2.0.20 starting
+1737121838: Config loaded from /mosquitto/config/mosquitto.conf.
+1737121838: Opening ipv4 listen socket on port 1883.
+1737121838: Opening ipv6 listen socket on port 1883.
+1737121838: mosquitto version 2.0.20 running
+1737121868: New connection from ::1:60058 on port 1883.
+1737121868: New client connected from ::1:60058 as healthcheck (p2, c1, k60).
+1737121868: Client healthcheck closed its connection.
+1737121870: New connection from 172.21.0.4:39009 on port 1883.
+1737121870: New client connected from 172.21.0.4:39009 as saw_edge_device (p5, c1, k60).
+1737121898: New connection from ::1:50638 on port 1883.
+1737121898: New client connected from ::1:50638 as healthcheck (p2, c1, k60).
+1737121898: Client healthcheck closed its connection.
+1737121929: New connection from ::1:43878 on port 1883.
+1737121929: New client connected from ::1:43878 as healthcheck (p2, c1, k60).
+1737121929: Client healthcheck closed its connection.
+1737121959: New connection from ::1:59910 on port 1883.
+1737121959: New client connected from ::1:59910 as healthcheck (p2, c1, k60).
+1737121959: Client healthcheck closed its connection.
+1737121989: New connection from ::1:35310 on port 1883.
+1737121989: New client connected from ::1:35310 as healthcheck (p2, c1, k60).
+1737121989: Client healthcheck closed its connection.
+1737122019: New connection from ::1:36714 on port 1883.
+1737122019: New client connected from ::1:36714 as healthcheck (p2, c1, k60).
+1737122019: Client healthcheck closed its connection.
+1737122049: New connection from ::1:45720 on port 1883.
+1737122049: New client connected from ::1:45720 as healthcheck (p2, c1, k60).
+1737122049: Client healthcheck closed its connection.
+1737122079: New connection from ::1:53838 on port 1883.
+1737122079: New client connected from ::1:53838 as healthcheck (p2, c1, k60).
+1737122079: Client healthcheck closed its connection.
+1737122109: New connection from ::1:41730 on port 1883.
+1737122109: New client connected from ::1:41730 as healthcheck (p2, c1, k60).
+1737122109: Client healthcheck closed its connection.
+1737122139: New connection from ::1:44426 on port 1883.
+1737122139: New client connected from ::1:44426 as healthcheck (p2, c1, k60).
+1737122139: Client healthcheck closed its connection.
+1737122170: New connection from ::1:35458 on port 1883.
+1737122170: New client connected from ::1:35458 as healthcheck (p2, c1, k60).
+1737122170: Client healthcheck closed its connection.
+1737122200: New connection from ::1:37206 on port 1883.
+1737122200: New client connected from ::1:37206 as healthcheck (p2, c1, k60).
+1737122200: Client healthcheck closed its connection.
+1737122230: New connection from ::1:53772 on port 1883.
+1737122230: New client connected from ::1:53772 as healthcheck (p2, c1, k60).
+1737122230: Client healthcheck closed its connection.
+1737122260: New connection from ::1:60936 on port 1883.
+1737122260: New client connected from ::1:60936 as healthcheck (p2, c1, k60).
+1737122260: Client healthcheck closed its connection.
+1737122290: New connection from ::1:56700 on port 1883.
+1737122290: New client connected from ::1:56700 as healthcheck (p2, c1, k60).
+1737122290: Client healthcheck closed its connection.
+1737122320: New connection from ::1:44904 on port 1883.
+1737122320: New client connected from ::1:44904 as healthcheck (p2, c1, k60).
+1737122320: Client healthcheck closed its connection.
+1737122350: New connection from ::1:39892 on port 1883.
+1737122350: New client connected from ::1:39892 as healthcheck (p2, c1, k60).
+1737122350: Client healthcheck closed its connection.
+1737122358: Client saw_edge_device closed its connection.
+1737122359: mosquitto version 2.0.20 terminating
+1737122359: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737122443: mosquitto version 2.0.20 starting
+1737122443: Config loaded from /mosquitto/config/mosquitto.conf.
+1737122443: Opening ipv4 listen socket on port 1883.
+1737122443: Opening ipv6 listen socket on port 1883.
+1737122443: mosquitto version 2.0.20 running
+1737122473: New connection from ::1:33050 on port 1883.
+1737122473: New client connected from ::1:33050 as healthcheck (p2, c1, k60).
+1737122473: Client healthcheck closed its connection.
+1737122475: New connection from 172.21.0.4:52657 on port 1883.
+1737122475: New client connected from 172.21.0.4:52657 as saw_edge_device (p5, c1, k60).
+1737122503: New connection from ::1:49554 on port 1883.
+1737122503: New client connected from ::1:49554 as healthcheck (p2, c1, k60).
+1737122504: Client healthcheck closed its connection.
+1737122534: New connection from ::1:41256 on port 1883.
+1737122534: New client connected from ::1:41256 as healthcheck (p2, c1, k60).
+1737122534: Client healthcheck closed its connection.
+1737122564: New connection from ::1:59128 on port 1883.
+1737122564: New client connected from ::1:59128 as healthcheck (p2, c1, k60).
+1737122564: Client healthcheck closed its connection.
+1737122594: New connection from ::1:39712 on port 1883.
+1737122594: New client connected from ::1:39712 as healthcheck (p2, c1, k60).
+1737122594: Client healthcheck closed its connection.
+1737122624: New connection from ::1:52024 on port 1883.
+1737122624: New client connected from ::1:52024 as healthcheck (p2, c1, k60).
+1737122624: Client healthcheck closed its connection.
+1737122654: New connection from ::1:39800 on port 1883.
+1737122654: New client connected from ::1:39800 as healthcheck (p2, c1, k60).
+1737122654: Client healthcheck closed its connection.
+1737122684: New connection from ::1:54258 on port 1883.
+1737122684: New client connected from ::1:54258 as healthcheck (p2, c1, k60).
+1737122684: Client healthcheck closed its connection.
+1737122714: New connection from ::1:55020 on port 1883.
+1737122714: New client connected from ::1:55020 as healthcheck (p2, c1, k60).
+1737122714: Client healthcheck closed its connection.
+1737122716: Client saw_edge_device closed its connection.
+1737122716: mosquitto version 2.0.20 terminating
+1737122716: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737122807: mosquitto version 2.0.20 starting
+1737122807: Config loaded from /mosquitto/config/mosquitto.conf.
+1737122807: Opening ipv4 listen socket on port 1883.
+1737122807: Opening ipv6 listen socket on port 1883.
+1737122807: mosquitto version 2.0.20 running
+1737122837: New connection from ::1:52870 on port 1883.
+1737122837: New client connected from ::1:52870 as healthcheck (p2, c1, k60).
+1737122837: Client healthcheck closed its connection.
+1737122867: New connection from ::1:41700 on port 1883.
+1737122867: New client connected from ::1:41700 as healthcheck (p2, c1, k60).
+1737122867: Client healthcheck closed its connection.
+1737122898: New connection from ::1:33712 on port 1883.
+1737122898: New client connected from ::1:33712 as healthcheck (p2, c1, k60).
+1737122898: Client healthcheck closed its connection.
+1737122908: mosquitto version 2.0.20 terminating
+1737122908: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737123113: mosquitto version 2.0.20 starting
+1737123113: Config loaded from /mosquitto/config/mosquitto.conf.
+1737123113: Opening ipv4 listen socket on port 1883.
+1737123113: Opening ipv6 listen socket on port 1883.
+1737123113: mosquitto version 2.0.20 running
+1737123143: New connection from ::1:36098 on port 1883.
+1737123143: New client connected from ::1:36098 as healthcheck (p2, c1, k60).
+1737123143: Client healthcheck closed its connection.
+1737123145: New connection from 172.21.0.4:46995 on port 1883.
+1737123145: New client connected from 172.21.0.4:46995 as saw_edge_device (p5, c1, k60).
+1737123173: New connection from ::1:46904 on port 1883.
+1737123173: New client connected from ::1:46904 as healthcheck (p2, c1, k60).
+1737123173: Client healthcheck closed its connection.
+1737123203: New connection from ::1:42766 on port 1883.
+1737123203: New client connected from ::1:42766 as healthcheck (p2, c1, k60).
+1737123203: Client healthcheck closed its connection.
+1737123233: New connection from ::1:34506 on port 1883.
+1737123233: New client connected from ::1:34506 as healthcheck (p2, c1, k60).
+1737123233: Client healthcheck closed its connection.
+1737123264: New connection from ::1:60894 on port 1883.
+1737123264: New client connected from ::1:60894 as healthcheck (p2, c1, k60).
+1737123264: Client healthcheck closed its connection.
+1737123294: New connection from ::1:57984 on port 1883.
+1737123294: New client connected from ::1:57984 as healthcheck (p2, c1, k60).
+1737123294: Client healthcheck closed its connection.
+1737123304: Client saw_edge_device closed its connection.
+1737123304: mosquitto version 2.0.20 terminating
+1737123304: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737123361: mosquitto version 2.0.20 starting
+1737123361: Config loaded from /mosquitto/config/mosquitto.conf.
+1737123361: Opening ipv4 listen socket on port 1883.
+1737123361: Opening ipv6 listen socket on port 1883.
+1737123361: mosquitto version 2.0.20 running
+1737123391: New connection from ::1:38122 on port 1883.
+1737123391: New client connected from ::1:38122 as healthcheck (p2, c1, k60).
+1737123391: Client healthcheck closed its connection.
+1737123392: New connection from 172.21.0.4:49009 on port 1883.
+1737123392: New client connected from 172.21.0.4:49009 as saw_edge_device (p5, c1, k60).
+1737123421: New connection from ::1:55682 on port 1883.
+1737123421: New client connected from ::1:55682 as healthcheck (p2, c1, k60).
+1737123421: Client healthcheck closed its connection.
+1737123451: New connection from ::1:36590 on port 1883.
+1737123451: New client connected from ::1:36590 as healthcheck (p2, c1, k60).
+1737123451: Client healthcheck closed its connection.
+1737123481: New connection from ::1:56496 on port 1883.
+1737123481: New client connected from ::1:56496 as healthcheck (p2, c1, k60).
+1737123481: Client healthcheck closed its connection.
+1737123511: New connection from ::1:39110 on port 1883.
+1737123511: New client connected from ::1:39110 as healthcheck (p2, c1, k60).
+1737123511: Client healthcheck closed its connection.
+1737123541: New connection from ::1:44660 on port 1883.
+1737123541: New client connected from ::1:44660 as healthcheck (p2, c1, k60).
+1737123541: Client healthcheck closed its connection.
+1737123550: Client saw_edge_device closed its connection.
+1737123550: mosquitto version 2.0.20 terminating
+1737123550: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737123714: mosquitto version 2.0.20 starting
+1737123714: Config loaded from /mosquitto/config/mosquitto.conf.
+1737123714: Opening ipv4 listen socket on port 1883.
+1737123714: Opening ipv6 listen socket on port 1883.
+1737123714: mosquitto version 2.0.20 running
+1737123744: New connection from ::1:36652 on port 1883.
+1737123744: New client connected from ::1:36652 as healthcheck (p2, c1, k60).
+1737123744: Client healthcheck closed its connection.
+1737123746: New connection from 172.21.0.4:42345 on port 1883.
+1737123746: New client connected from 172.21.0.4:42345 as saw_edge_device (p5, c1, k60).
+1737123774: New connection from ::1:33522 on port 1883.
+1737123774: New client connected from ::1:33522 as healthcheck (p2, c1, k60).
+1737123774: Client healthcheck closed its connection.
+1737123804: New connection from ::1:56566 on port 1883.
+1737123804: New client connected from ::1:56566 as healthcheck (p2, c1, k60).
+1737123804: Client healthcheck closed its connection.
+1737123834: New connection from ::1:46604 on port 1883.
+1737123834: New client connected from ::1:46604 as healthcheck (p2, c1, k60).
+1737123834: Client healthcheck closed its connection.
+1737123865: New connection from ::1:54308 on port 1883.
+1737123865: New client connected from ::1:54308 as healthcheck (p2, c1, k60).
+1737123865: Client healthcheck closed its connection.
+1737123895: New connection from ::1:47726 on port 1883.
+1737123895: New client connected from ::1:47726 as healthcheck (p2, c1, k60).
+1737123895: Client healthcheck closed its connection.
+1737123925: New connection from ::1:46302 on port 1883.
+1737123925: New client connected from ::1:46302 as healthcheck (p2, c1, k60).
+1737123925: Client healthcheck closed its connection.
+1737123955: New connection from ::1:43240 on port 1883.
+1737123955: New client connected from ::1:43240 as healthcheck (p2, c1, k60).
+1737123955: Client healthcheck closed its connection.
