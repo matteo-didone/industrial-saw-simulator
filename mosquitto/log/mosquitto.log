@@ -4427,3 +4427,66 @@
 1737123955: New connection from ::1:43240 on port 1883.
 1737123955: New client connected from ::1:43240 as healthcheck (p2, c1, k60).
 1737123955: Client healthcheck closed its connection.
+1737128053: mosquitto version 2.0.20 starting
+1737128053: Config loaded from /mosquitto/config/mosquitto.conf.
+1737128053: Opening ipv4 listen socket on port 1883.
+1737128053: Opening ipv6 listen socket on port 1883.
+1737128053: mosquitto version 2.0.20 running
+1737128060: New connection from 172.18.0.4:56943 on port 1883.
+1737128060: New client connected from 172.18.0.4:56943 as saw_edge_device (p5, c1, k60).
+1737128083: New connection from ::1:34418 on port 1883.
+1737128083: New client connected from ::1:34418 as healthcheck (p2, c1, k60).
+1737128083: Client healthcheck closed its connection.
+1737128113: New connection from ::1:45514 on port 1883.
+1737128113: New client connected from ::1:45514 as healthcheck (p2, c1, k60).
+1737128113: Client healthcheck closed its connection.
+1737128143: New connection from ::1:43832 on port 1883.
+1737128143: New client connected from ::1:43832 as healthcheck (p2, c1, k60).
+1737128143: Client healthcheck closed its connection.
+1737128173: New connection from ::1:36354 on port 1883.
+1737128173: New client connected from ::1:36354 as healthcheck (p2, c1, k60).
+1737128173: Client healthcheck closed its connection.
+1737128203: New connection from ::1:52096 on port 1883.
+1737128203: New client connected from ::1:52096 as healthcheck (p2, c1, k60).
+1737128203: Client healthcheck closed its connection.
+1737128233: New connection from ::1:48322 on port 1883.
+1737128233: New client connected from ::1:48322 as healthcheck (p2, c1, k60).
+1737128233: Client healthcheck closed its connection.
+1737128263: New connection from ::1:40250 on port 1883.
+1737128263: New client connected from ::1:40250 as healthcheck (p2, c1, k60).
+1737128263: Client healthcheck closed its connection.
+1737128268: Client saw_edge_device closed its connection.
+1737128268: mosquitto version 2.0.20 terminating
+1737128268: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737128308: mosquitto version 2.0.20 starting
+1737128308: Config loaded from /mosquitto/config/mosquitto.conf.
+1737128308: Opening ipv4 listen socket on port 1883.
+1737128308: Opening ipv6 listen socket on port 1883.
+1737128308: mosquitto version 2.0.20 running
+1737128316: New connection from 172.18.0.5:42307 on port 1883.
+1737128316: New client connected from 172.18.0.5:42307 as saw_edge_device (p5, c1, k60).
+1737128338: New connection from ::1:55180 on port 1883.
+1737128338: New client connected from ::1:55180 as healthcheck (p2, c1, k60).
+1737128338: Client healthcheck closed its connection.
+1737128363: Client saw_edge_device closed its connection.
+1737128365: New connection from 172.18.0.5:55551 on port 1883.
+1737128365: New client connected from 172.18.0.5:55551 as saw_edge_device (p5, c1, k60).
+1737128368: New connection from ::1:40736 on port 1883.
+1737128368: New client connected from ::1:40736 as healthcheck (p2, c1, k60).
+1737128368: Client healthcheck closed its connection.
+1737128392: Client saw_edge_device closed its connection.
+1737128392: mosquitto version 2.0.20 terminating
+1737128392: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737128403: mosquitto version 2.0.20 starting
+1737128403: Config loaded from /mosquitto/config/mosquitto.conf.
+1737128403: Opening ipv4 listen socket on port 1883.
+1737128403: Opening ipv6 listen socket on port 1883.
+1737128403: mosquitto version 2.0.20 running
+1737128433: New connection from ::1:45588 on port 1883.
+1737128433: New client connected from ::1:45588 as healthcheck (p2, c1, k60).
+1737128433: Client healthcheck closed its connection.
+1737128435: New connection from 172.18.0.4:46109 on port 1883.
+1737128435: New client connected from 172.18.0.4:46109 as saw_edge_device (p5, c1, k60).
+1737128463: New connection from ::1:39192 on port 1883.
+1737128463: New client connected from ::1:39192 as healthcheck (p2, c1, k60).
+1737128463: Client healthcheck closed its connection.

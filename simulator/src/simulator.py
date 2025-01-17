@@ -73,7 +73,13 @@ class IndustrialSawSimulator:
 
     def set_material(self, material_name: str) -> bool:
         """Imposta il materiale da tagliare"""
+        # Estrai il valore dalla variante OPC UA se necessario
+        if hasattr(material_name, 'Value'):
+            material_name = material_name.Value
+            
+        # Converte in minuscolo e verifica
         material_key = material_name.lower()
+        
         if material_key in self.materials:
             self.current_material = self.materials[material_key]
             if self.state == MachineState.RUNNING:
